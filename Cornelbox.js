@@ -11,11 +11,11 @@ var camera;
 camera = new THREE.PerspectiveCamera( 75, aspect, 0.1, 1000 );
 var camGroup = new THREE.Object3D();
 camGroup.add(camera);
-camera.position.z = 6.5;
-camera.position.y = 0;
+//camera.position.z = 6.5;
+//camera.position.y = 0;
 
-//camGroup.position.z = 6.5;
-//camGroup.position.y = 0;
+camGroup.position.z = 6.5;
+camGroup.position.y = 0;
 
 var renderer;
 renderer = new THREE.WebGLRenderer();
