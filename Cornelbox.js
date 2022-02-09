@@ -18,7 +18,7 @@ camGroup.position.z = 6.5;
 camGroup.position.y = 0;
 
 var renderer;
-renderer = new THREE.WebGLRenderer();
+renderer = new THREE.WebGLRenderer({antialias:true});
 renderer.shadowMap.enabled = true;
 renderer.shadowMap.type = THREE.PCFSoftShadowMap; // default THREE.PCFShadowMap
 renderer.setSize( window.innerWidth, window.innerHeight);
